@@ -1,0 +1,9 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glfw = { version = "0.63", default-features = false, features = ["prebuilt-libs", "raw-window-handle-v0-6"] }
+gl = "0.14"
+
